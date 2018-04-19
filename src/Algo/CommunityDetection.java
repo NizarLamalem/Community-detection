@@ -36,6 +36,7 @@ public class CommunityDetection extends GraphTreatment {
         this.leung.init(graph);
     }
 
+
     public void findCommunities() {
         this.viewer = graph.display(true);
         /*LinLog Layout
